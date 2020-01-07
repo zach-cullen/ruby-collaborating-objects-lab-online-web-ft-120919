@@ -17,6 +17,10 @@ class Song
     @artist = Artist.find_or_create_by_name(artist_name)
   end
   
+  def new_by_filename(file_name)
+    
+  end
+  
   #class methods
   
   def self.all
