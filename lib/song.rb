@@ -23,6 +23,7 @@ class Song
     name = info[1]
     new_song = self.new(name)
     new_song.artist_name=(artist)
+    new_song
   end
   
   #class methods
