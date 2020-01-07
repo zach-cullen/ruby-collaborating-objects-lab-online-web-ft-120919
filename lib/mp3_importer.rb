@@ -7,7 +7,7 @@ class MP3Importer
   end
   
   def files
-    @path.each do |file|
+    file_arr = @path.map
       
     end
   end
