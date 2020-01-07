@@ -7,9 +7,7 @@ class MP3Importer
   end
   
   def files
-    file_arr = @path.map
-      
-    end
+    children(@path)
   end
   
 end
